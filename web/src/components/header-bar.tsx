@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link, useNavigate } from '@tanstack/react-router'
-import { Check, Languages, LogOut, MoreVertical } from 'lucide-react'
+import { Check, Languages, LogOut, MoreVertical, UserRound } from 'lucide-react'
 
 import { ModeToggle } from '@/components/mode-toggle.tsx'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
@@ -256,6 +256,9 @@ export const HeaderBar: React.FC<HeaderBarProps> = ({
                                 {getUserInitials()}
                               </AvatarFallback>
                             </Avatar>
+                          )}
+                          {!authState.multiTenant && (
+                            <UserRound className='text-muted-foreground mr-3 h-4 w-4 shrink-0' />
                           )}
 
                           <div className='flex min-w-0 flex-1 flex-col'>
