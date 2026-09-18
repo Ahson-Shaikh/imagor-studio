@@ -79,7 +79,7 @@ const config: Config = {
       title: "Imagor Studio",
       items: [
         {
-          href: "https://imagor.net",
+          href: "https://studio.imagor.net",
           label: "imagor.net",
           position: "left",
         },
@@ -94,7 +94,7 @@ const config: Config = {
             },
             {
               label: "imagor Studio",
-              href: "https://imagor.net",
+              href: "https://studio.imagor.net",
             },
             {
               label: "imagorvideo",
@@ -112,7 +112,7 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://imagor.net/buy/early-bird/",
+          href: "https://studio.imagor.net/buy/early-bird/",
           label: "Early Bird $39",
           position: "right",
           className: "navbar-buy-button",
@@ -152,7 +152,7 @@ const config: Config = {
             },
             {
               label: "imagor Studio",
-              href: "https://imagor.net",
+              href: "https://studio.imagor.net",
             },
             {
               label: "imagorvideo",
